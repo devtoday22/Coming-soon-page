@@ -53,6 +53,7 @@
     border: 1px solid #ddd;
     border-radius: 50px;
     width: 80%;
+    padding-left: 16px;
     height: 56px;
     margin-top: 8%;
     overflow: hidden;
