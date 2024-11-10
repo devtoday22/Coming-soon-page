@@ -1,0 +1,210 @@
+.container {
+
+    height: auto;
+    width: 60%;
+    margin-top: 8%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+  .leftCol {
+    flex: 0 0 60%; 
+    background-color: rgb(212, 190, 190);
+    opacity: 0.8;
+  }
+  .logo img {
+
+    width: 30%;
+    height: auto;
+  }
+
+  .design {
+
+    padding-top: 4%;
+    padding-left: 12%;
+    display: flex;
+    flex-direction: column;
+  }
+  .leftHeadline {
+
+    margin-top: 12%;
+    font-size: 52px;
+    width: 20%;
+    font-weight: 400;
+  }
+.about {
+
+    color: hsl(0, 46%, 43%);
+}
+
+.description {
+
+    padding-top: 22px;
+    width: 80%;
+    color: hsl(0, 43%, 48%);
+    font-weight: 600;
+}
+
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    width: 80%;
+    height: 56px;
+    margin-top: 8%;
+    overflow: hidden;
+    background: rgba(255, 0, 0, 0.05); /*  */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inputField {
+    border: none;
+    flex: 1;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+  }
+  
+  .inputField::placeholder {
+    color: #aaa;
+  }
+  
+  .inputButton {
+    background: #e57373; 
+    border: none;
+    color: white;
+    width: 80px;
+    height: 56px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s;
+  }
+  
+  .inputButton:hover {
+    background: #f06292; /* hover  */
+  }
+  
+  .rightCol {
+    flex: 0 0 40%;
+  }
+  .imageMobile {
+
+    display: none;
+  }
+  
+  @media only screen and (max-width: 610px) {
+    .container {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+   
+    }
+  }
+
+  @media only screen and (max-width: 610px) {
+    .image {
+     display: none;
+    }
+  }
+  @media only screen and (max-width: 610px) {
+    .imageMobile {
+
+     display: block;
+     width: 80%;
+     margin-top: 4%;
+    }
+  }
+  @media only screen and (max-width: 610px) {
+    .imageMobile img {
+
+     display: block;
+     max-width: 124%;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .leftCol {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .description {
+
+        width: auto;
+        margin-top: 30px;
+        padding: 0 14px 0 14px;
+        letter-spacing: 0.5px; 
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .leftHeadline {
+
+        text-align: center;
+        width: 90%; 
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .design {
+     
+        padding: 0;      
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .inputContainer {     
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+      
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .inputField  {
+
+     padding: 0;
+     width: auto; 
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+    .inputButton  {
+
+       width: 280px;     
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .inputButton  {
+
+     padding: 0;
+     width: 180px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .logo  {
+
+     padding-top: 18px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .main  {
+
+     width: 100%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .section  {
+
+     max-width: 100%;
+    }
+  }
